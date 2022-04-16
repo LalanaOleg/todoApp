@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+		integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+	<title>Adaptive</title>
+</head>
+
+<body>
+	<div class="wrapper">
+
+		<!-- ======== HEADER ===================================================================================== -->
+
+
+		<!-- =================================================================================================== -->
+
+		<div class="container">
+			<div class="tasks">
+				<div class="tasks__wrapper">
+					<form id="form">
+						<div class="form__wrapper">
+							<input type="text" class="tasks__input">
+							<button type="submit" class="tasks__btn">
+								<i class="fa-solid fa-plus"></i>
+							</button>
+						</div>
+					</form>
+					<div class="select">
+						<select name="todos" class="filter">
+							<option value="all">All</option>
+							<option value="completed">Completed</option>
+							<option value="uncompleted">Uncompleted</option>
+						</select>
+					</div>
+				</div>
+				<div class="tasks__body">
+					<ul class="tasks__list">
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<!-- ======== FOOTER ===================================================================================== -->
+
+
+		<!-- =================================================================================================== -->
+	</div>
+
+	<script src="js/app.js"></script>
+</body>
+
+</html>
